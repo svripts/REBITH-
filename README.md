@@ -50,7 +50,7 @@ local function setupUI()
         local container = Instance.new("Frame")
         container.Size = UDim2.new(0, 320, 0, 78)
         container.Position = UDim2.new(0.5, -160, 0, 28)
-        container.BackgroundTransparency = 1
+        container.BackgroundTransparency = 15
         container.Parent = sg
 
         -- Banner (deep navy with cyan glow border)
